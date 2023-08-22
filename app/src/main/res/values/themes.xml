@@ -26,4 +26,8 @@
         <item name="android:textSize">28sp</item>
         <item name="textFillColor">@color/over_secondary_background</item>
     </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/mtrl_textinput_default_box_stroke_color</item>
+    </style>
 </resources>
