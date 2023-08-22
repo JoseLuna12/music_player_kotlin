@@ -2,7 +2,7 @@ package com.joseluna.mymusic
 
 public class Constants {
     companion object {
-        val BASE_URL = "https://2e13-179-49-61-59.ngrok-free.app"
+        val BASE_URL = "https://e43d-179-49-61-59.ngrok-free.app"
         val ALL_SONGS_URL = "$BASE_URL/song"
         fun ONE_SONG_URL(id: String) = "$ALL_SONGS_URL/$id"
         fun PLAY_SONG_BY_ID(id: String) = "$BASE_URL/play/$id"

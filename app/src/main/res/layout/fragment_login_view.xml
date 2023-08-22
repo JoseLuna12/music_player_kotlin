@@ -20,6 +20,7 @@
 
 
         <com.google.android.material.imageview.ShapeableImageView
+            app:strokeColor="@color/material_dynamic_primary50"
             android:layout_marginBottom="10pt"
             android:layout_width="250dp"
             android:layout_height="250dp"
@@ -30,6 +31,7 @@
             />
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/LoginTextInputLayoutStyle"
             android:paddingBottom="10pt"
             android:hint="Username"
             android:layout_width="match_parent"
