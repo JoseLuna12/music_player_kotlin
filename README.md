@@ -1,6 +1,12 @@
 # music_player_kotlin
 A music stream player built with Kotlin using material design 3 guidelines
 
+### Backend
+```
+//Rust streaming server
+[https://github.com/JoseLuna12/music_player_kotlin](https://github.com/JoseLuna12/rust_backend_song_streaming)
+```
+
 ## Green tones
 ### Login view
 ![Login view kotlin](https://firebasestorage.googleapis.com/v0/b/dashboard-blogs-app.appspot.com/o/images%2FThzROsREBLP9kFuUvCnohZ2IABw2%2Fthumbnail_half_Screenshot%202023-08-22%20at%2014.50.26.png?alt=media&token=3c266843-95dc-4667-aabe-4902606889ee)
