@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/music"
+            android:src="@drawable/placeholder"
             />
         <LinearLayout
             android:layout_gravity="bottom"
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/material_dynamic_primary99"
-                android:text="test"
+                android:text=" "
                 />
         </LinearLayout>
     </com.google.android.material.carousel.MaskableFrameLayout>

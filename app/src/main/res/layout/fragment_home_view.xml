@@ -68,7 +68,7 @@
                                     android:id="@+id/featuredImageView"
                                     android:layout_width="match_parent"
                                     android:layout_height="200dp"
-                                    android:src="@drawable/music"
+                                    android:src="@drawable/placeholder"
                                     android:scaleType="centerCrop"
                                     />
                                 <LinearLayout

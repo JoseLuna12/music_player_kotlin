@@ -79,6 +79,7 @@ class LoginViewFragment : Fragment() {
             )
 
             findNavController().navigate(action)
+//                .popu(action)
         }
     }
 }

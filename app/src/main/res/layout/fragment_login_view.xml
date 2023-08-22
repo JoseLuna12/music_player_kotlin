@@ -26,7 +26,7 @@
             android:scaleType="centerCrop"
             android:adjustViewBounds="true"
             app:shapeAppearanceOverlay="@style/circleImageView"
-            android:src="@drawable/music"
+            android:src="@drawable/placeholder"
             />
 
         <com.google.android.material.textfield.TextInputLayout
