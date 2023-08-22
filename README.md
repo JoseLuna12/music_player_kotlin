@@ -2,9 +2,12 @@
 A music stream player built with Kotlin using material design 3 guidelines
 
 ### Backend
-```
+```bash
 //Rust streaming server
-[https://github.com/JoseLuna12/music_player_kotlin](https://github.com/JoseLuna12/rust_backend_song_streaming)
+//note: It needs ngrok to work
+
+git clone https://github.com/JoseLuna12/rust_backend_song_streaming
+
 ```
 
 ## Green tones
