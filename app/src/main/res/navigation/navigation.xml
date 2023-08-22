@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginViewFragment">
+
+    <fragment
+        android:id="@+id/loginViewFragment"
+        android:name="com.joseluna.mymusic.login.LoginViewFragment"
+        android:label="fragment_login_view"
+        tools:layout="@layout/fragment_login_view" >
+        <action
+            android:id="@+id/action_loginViewFragment_to_homeViewFragment"
+            app:destination="@id/homeViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerViewFragment"
+        android:name="com.joseluna.mymusic.player.PlayerViewFragment"
+        android:label="fragment_player_view"
+        tools:layout="@layout/fragment_player_view" >
+        <action
+            android:id="@+id/action_playerViewFragment_to_homeViewFragment"
+            app:destination="@id/homeViewFragment"
+            app:popExitAnim="@android:anim/slide_in_left" />
+        <argument
+            android:name="selectedSong"
+            app:argType="com.joseluna.mymusic.MusicModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeViewFragment"
+        android:name="com.joseluna.mymusic.home.homeViewFragment"
+        android:label="fragment_home_view"
+        tools:layout="@layout/fragment_home_view" >
+        <action
+            android:id="@+id/action_homeViewFragment_to_playerViewFragment"
+            app:destination="@id/playerViewFragment" />
+        <argument
+            android:name="user"
+            app:argType="com.joseluna.mymusic.UserModel" />
+    </fragment>
+</navigation>

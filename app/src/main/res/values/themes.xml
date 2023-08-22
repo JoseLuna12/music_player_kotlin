@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyMusic" parent="Theme.Material3.DayNight">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/second_background</item>
+        <item name="android:backgroundTint">@color/background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyMusic" parent="Base.Theme.MyMusic" />
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="sectionTitle">
+        <item name="android:paddingTop">22dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/over_secondary_background</item>
+    </style>
+
+    <style name="playerTitle" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">28sp</item>
+        <item name="textFillColor">@color/over_secondary_background</item>
+    </style>
+</resources>

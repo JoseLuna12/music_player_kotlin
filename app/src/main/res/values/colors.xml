@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="background">@color/material_dynamic_neutral99</color>
+    <color name="second_background">@color/material_dynamic_neutral95</color>
+    <color name="third_background">@color/material_dynamic_secondary90</color>
+    <color name="over_secondary_background">@color/material_dynamic_neutral30</color>
+    <color name="on_secondary_container">@color/material_dynamic_secondary10</color>
+    <color name="over_background_outline">@color/material_dynamic_secondary80</color>
+</resources>
